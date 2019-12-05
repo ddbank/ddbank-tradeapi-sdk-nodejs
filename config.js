@@ -1,5 +1,5 @@
 var config = {
-    //ddbank提供的域名,不需要加https
+    //ddbank提供的API域名,不需要加https协议
     "domain": "",
     //ddbank提交订单接口
     "orderApi": "/api/v1/stock/placeOrder",

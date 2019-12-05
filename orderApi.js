@@ -7,7 +7,13 @@ var Base64 = require('./crypto-js/enc-base64');
 var util = require('./util')
 
 let data = util.sort_ASCII({
-    "stoneIds": ""
+    "stoneIds": "5dd6576044f03f07e67601fd",
+    "brandName":"品牌商名称test",
+    "storeName":"店铺名称test",
+    "storeAddr":"店铺地址test",
+    "customName":"客户姓名test",
+    "brandOrder":"NO201909010001",
+    "deliverDate":"2019-09-01"
 })
 
 const param = querystring.stringify(data);
