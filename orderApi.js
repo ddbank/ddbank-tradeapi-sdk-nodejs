@@ -13,7 +13,9 @@ let data = util.sort_ASCII({
     "storeAddr":"店铺地址test",
     "customName":"客户姓名test",
     "brandOrder":"NO201909010001",
-    "deliverDate":"2019-09-01"
+    "deliverDate":"2019-09-01",
+    "contactName":"某某某",
+    "contactPhone":"13666666666"
 })
 
 const param = querystring.stringify(data);
